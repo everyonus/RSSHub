@@ -4,6 +4,19 @@ pageClass: routes
 
 # ACG
 
+## Anilist
+
+### User Activities
+
+<RouteEn author="everyonus" path="/anilist/user/:user/:status" example="/anilist/user/Josh/messages" :paramsDesc="['Username or ID', 'Activity Type']">
+
+Activity types:
+|Status|Messages|Media Lists|
+|------|--------|-----------|
+|status|messages|lists      |
+
+</RouteEn>
+
 ## Hanime.tv
 
 ### Recently updated
