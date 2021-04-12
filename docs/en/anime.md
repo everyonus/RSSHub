@@ -10,10 +10,18 @@ pageClass: routes
 
 <RouteEn author="everyonus" path="/anilist/user/:user/:status" example="/anilist/user/Josh/messages" :paramsDesc="['Username or ID', 'Activity Type']">
 
-Activity types:
-|Status|Messages|Media Lists|
-|------|--------|-----------|
-|status|messages|lists      |
+| Activity Types | Description                                   |
+|----------------|-----------------------------------------------|
+| status         |  A text activity                              |
+| messages       |  A text message activity sent to another user |
+| lists          |  Anime & Manga list update                    |
+
+</RouteEn>
+
+### Recent Reviews
+
+<RouteEn author="everyonus" path="/anilist/review/recent" example="/anilist/review/recent">
+
 
 </RouteEn>
 
