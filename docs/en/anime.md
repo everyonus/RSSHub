@@ -18,6 +18,33 @@ pageClass: routes
 
 </RouteEn>
 
+
+### Recent Forums
+
+<RouteEn author="everyonus" path="/anilist/forum/new/:categoryID?" example="/anilist/forum/new/1" :paramsDesc="['Defaults to all']">
+
+| Category Types |  Name               |
+|----------------|---------------------|
+| 1              |  Anime              |
+| 2              |  Manga              |
+| 3              |  Light Novels       |
+| 4              |  Visual Novels      |
+| 5              |  Release Discussion |
+| 7              |  General            |
+| 8              |  News               |
+| 9              |  Music              |
+| 10             |  Gaming             |
+| 11             |  Site Feedback      |
+| 12             |  Bug Reports        |
+| 13             |  Site Announcements |
+| 14             |  List Customisation |
+| 15             |  recommendations    |
+| 16             |  Forum Games        |
+| 17             |  Misc               |
+
+</RouteEn>
+
+
 ### Recent Reviews
 
 <RouteEn author="everyonus" path="/anilist/review/recent" example="/anilist/review/recent">
